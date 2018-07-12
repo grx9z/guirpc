@@ -1,0 +1,23 @@
+    
+    .activeTab {
+        font-weight: bold;
+    }
+
+    .t { width: 100%; }
+
+    .sub { 
+        background: hsla(0, 0%, 100%, 10%);
+        border-radius: 0.5em;
+    }
+
+    .subd { 
+        background: hsla(0, 0%, 0%, 50%);
+        border-radius: 0.333em;
+        padding: 0.1em;
+    }
+
+    body {
+      transition: all 0.5s ease-out;
+      color: #cfe;
+      background: linear-gradient(hsl(240, 20%, 7%), hsl(180, 20%, 7%));
+    }
