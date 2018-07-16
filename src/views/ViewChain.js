@@ -1,5 +1,5 @@
 class Node { constructor(name, url) { this.name = name; this.url = url; } }
-var nodes = ["http://localhost:8545"].map(x => new Node(x, x));
+var nodes = ["https://mainnet.infura.io/y0J521CNM3wUL557eqZc"].map(x => new Node(x, x));
 var rpc = new RPCConnector(nodes[0].url);
 
 class ViewBlockDetails extends ViewList {
